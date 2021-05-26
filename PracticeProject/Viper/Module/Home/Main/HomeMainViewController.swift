@@ -17,13 +17,6 @@ import UIKit
  G. 북마크 버튼의 이벤트.
  */
 
-/*
- 과제
- 1. 새로운 ViewController를 만들어 Viper components를 구성하고 아래와 같은 방식으로 진행될 수 있는 버튼 만들기.
- 2. ProductViewController를 MVVM으로 바꿔보기.
- 3. 상품 선택시
- */
-
 final class HomeMainViewController: UIViewController {
     
     // MARK: - Variables
