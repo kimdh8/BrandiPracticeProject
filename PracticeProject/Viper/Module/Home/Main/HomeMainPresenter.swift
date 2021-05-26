@@ -24,7 +24,7 @@ final class HomeMainPresenter {
 
 // MARK: - HomeInteractorOutput Implementation
 extension HomeMainPresenter: HomeInteractorOutput {
-    func getResponseData(_ responseData: ResponseTitleData) {
+    func recievedTitleData(_ responseData: ResponseTitleData) {
         // B-4. interactor에게서 전달 받은 결괏값을 가지고 viewController에게 UI Update 요청.
         viewController?.updateTitleWithRequest(responseData)
     }

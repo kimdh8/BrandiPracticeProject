@@ -13,7 +13,7 @@ protocol HomeInteractorInput {
 }
 
 protocol HomeInteractorOutput {
-    func getResponseData(_ responseData: ResponseTitleData)
+    func recievedTitleData(_ responseData: ResponseTitleData)
 }
 
 // MARK: - Red

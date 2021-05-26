@@ -20,7 +20,7 @@ extension HomeMainInteractor: HomeInteractorInput {
     func getLabelTitle() {
         NetworkService.shared.getTitleData { [weak self] (responseData) in
             // B-3. 도출한 결괏값을 output인 presenter에게 전달
-            self?.presenter?.getResponseData(responseData)
+            self?.presenter?.recievedTitleData(responseData)
         }
     }
     
